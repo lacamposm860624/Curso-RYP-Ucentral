@@ -1,0 +1,72 @@
+---
+title: "Markdown en R"
+author: "Luis Andres Campos"
+date: "22/1/2020"
+output: html_document
+---
+
+# Título 1
+
+## Título 2
+
+### Título 3
+
+#### Título 4
+
+##### Título 5
+
+###### Título 6
+
+Esto es texto llano, podemos escribir todo lo que queramos sin ningún problema para acompañar a tanto el código en R como las fórmulas de $\LaTeX$.
+
+Esto sería una nueva linea de texto (dos intros o más). Se necesita siempre al menos un doble intro.
+
+Para colocar *cursiva*, podemos  usar un asteristo: *esto sería un texto en cursiva* o bien usar una sola barra baja _esto es cursiva_.
+
+Para colocar **negrita** podemos usar un doble asteristo: **esto es negrita** o bien una doble barra baja __esto es negrtita__.
+
+Los superíndices van con el *sombrerito*: este curso vale por mi nota ^2^. Juan Gabriel^profelucho^.
+
+Para tachar una palabra usamos una doble tilde ~~Las matemáticas son un rollo~~.
+
+Para conocer más sobre los recursos de Luis Campos, podemos visitar su [perfil de Luis Campos](https://github.com/lacamposm860624?tab=repositories).
+
+endash:-- Y entonce Juan dijo: ...
+
+emdash:... --- como Juan quería explicar.
+
+elipsis: ...
+
+# ecuaciones en línea $S = \pi\cdot r^2$
+
+![](../../../teoria/Imgs/logo.png)
+
+***
+
+Aquí empezamos otra cosa
+
+>Esto es una cita en bloque
+
+### Listas no ordenadas
+
+* Item primero
+* Item segundo
+    + Sub item 2.1
+    + Sub item 2.2
+* Item tercero
+
+### Listas ordenadas
+
+1. Primer item
+2. Segundo ítem
+    + Sub item
+    + Nuevo sub ítem
+3. Tercer ítem
+1. Quinto ítem
+1. Último ítem
+
+Alumno      |   Nota    | Edad
+------------|-----------|-------
+Juan        |   3.5     |   30
+Ricardo     |   5.6     |   55
+Maria       |   9.5     |   19
